@@ -24,6 +24,9 @@ export default function App() {
           onClick={() => handleClick(ele.img)}
           // this way add styling inline to the element based on conditino. why does it leave and empty style once unclicked tho
           // style={ele.img !== bigImage ? {} : { border: "2px solid green" }}
+          // idk how this works lol but it only does  boder
+          // {...(ele.img === bigImage) ? {border: 9, borderColor: "green"} : {}}
+          // {style: "2px solid green" }
         />
       )
     );
